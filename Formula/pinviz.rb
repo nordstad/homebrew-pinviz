@@ -3,8 +3,8 @@ class Pinviz < Formula
 
   desc "Generate Raspberry Pi GPIO wiring diagrams from YAML/JSON configs"
   homepage "https://nordstad.github.io/PinViz/"
-  url "https://files.pythonhosted.org/packages/06/68/ee102c8ff0189ebd986d365406495b34a5b1446100b3ea3ac3f36fa37d12/pinviz-0.18.1.tar.gz"
-  sha256 "9f6c123ee7b7ff614984af2e44631b75520b7f9c18ae2db6f854f7db314b8814"
+  url "https://files.pythonhosted.org/packages/fa/44/1bd318710e7de03a12e53fad32064c4e524e2d2d7d95fc6c9e66bc101eba/pinviz-0.19.0.tar.gz"
+  sha256 "e6367831cd4a2667048bb9115b614cb619070fec70d91930cc9a36d83b832685"
   license "MIT"
 
   depends_on "rust" => :build # required for pydantic-core and rpds-py
